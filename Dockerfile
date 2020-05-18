@@ -5,4 +5,4 @@ USER root
 RUN chgrp -R 0 ${WSO2_SERVER_HOME} && \
     chmod -R g+rwX ${WSO2_SERVER_HOME}
 
-user wso2carbon
+USER wso2carbon
